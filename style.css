@@ -1,0 +1,139 @@
+body {
+  background-color: #441e13;
+}
+
+div {
+  outline: yellow 1px solid;
+}
+
+/* --------------------------------------------------*/
+
+.LogoContainer {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.logo {
+  width: 180px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: white;
+  float: left;
+}
+
+.slogan {
+  color: #a37b71;
+  width: 350px;
+  float: left;
+  margin-top: 18px;
+}
+
+/* ----------------------------------------------*/
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 60px;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.nav ol{
+  padding: 35px;
+  padding-top: 18px;
+}
+
+.nav li {
+  display: block;
+  float: left;
+  color: white;
+  padding: 0 15px;
+  border-right: #d4b364 1px solid;
+}
+
+.nav li:last-child {
+  border-right: none;
+}
+
+/* -------------------------------------------*/
+
+.plane {
+  color: white;
+  background-color: #87a984;
+  max-width: 920px;
+  height: 212px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plane img {
+  float: left;
+  padding: 25px 60px 25px 25px;
+}
+
+.plane h1 {
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+.plane p {
+  max-width: 700px;
+  font-size: 20px;
+}
+
+/*----------------------------------------------*/
+
+.contain {
+  max-width: 920px;
+  width: 920px;
+  height: 1000px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bluebox {
+  margin-left: 265px;
+  float: left;
+  background-color: #96afac;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 180px;
+  height: 1000px;
+}
+
+.bluebox li {
+  display: block;
+  float: left;
+  color: white;
+  padding: 15px 0px 15px 0px;
+  border-bottom: white 1px solid;
+  font-weight: bold;
+}
+
+.whitebox {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dbd8c5;
+  height: 1000px;
+}
+
+.whitebox h1 {
+  color: #52706e;
+  padding-top: 20px;
+  padding-left: 200px;
+}
+
+.whitebox p {
+  color: #87847d;
+  padding-top: 20px;
+  padding-left: 200px;
+  max-width: 650px;
+  font-weight: bold;
+}
+
+/* -------------------------------------*/
